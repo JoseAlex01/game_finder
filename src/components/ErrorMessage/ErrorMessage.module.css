@@ -1,0 +1,16 @@
+.error {
+  padding: 20px;
+  border: 1px solid rgb(255 122 122 / 42%);
+  border-radius: 8px;
+  color: var(--text);
+  background: rgb(255 122 122 / 10%);
+}
+
+.error strong {
+  color: var(--danger);
+}
+
+.error p {
+  margin: 8px 0 0;
+  color: var(--muted);
+}

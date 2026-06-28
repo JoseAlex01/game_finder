@@ -1,0 +1,22 @@
+.noResults {
+  min-height: 220px;
+  display: grid;
+  place-items: center;
+  align-content: center;
+  gap: 8px;
+  padding: 30px;
+  border: 1px dashed var(--border);
+  border-radius: 8px;
+  color: var(--muted);
+  text-align: center;
+  background: rgb(23 28 35 / 48%);
+}
+
+.noResults h2,
+.noResults p {
+  margin: 0;
+}
+
+.noResults h2 {
+  color: var(--text);
+}

@@ -1,0 +1,22 @@
+.page {
+  display: grid;
+  gap: 18px;
+  padding-top: 24px;
+}
+
+.backLink {
+  width: fit-content;
+  min-height: 42px;
+  display: inline-grid;
+  place-items: center;
+  padding: 0 14px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text);
+  background: var(--surface);
+  font-weight: 900;
+}
+
+.backLink:hover {
+  border-color: var(--accent);
+}

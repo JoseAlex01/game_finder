@@ -1,0 +1,28 @@
+.notFound {
+  min-height: 60vh;
+  display: grid;
+  place-items: center;
+  align-content: center;
+  gap: 12px;
+  text-align: center;
+}
+
+.notFound h1,
+.notFound p {
+  margin: 0;
+}
+
+.notFound p {
+  color: var(--muted);
+}
+
+.notFound a {
+  min-height: 42px;
+  display: inline-grid;
+  place-items: center;
+  padding: 0 14px;
+  border-radius: 8px;
+  color: #071412;
+  background: var(--accent);
+  font-weight: 900;
+}

@@ -1,0 +1,24 @@
+.footer {
+  width: min(1180px, calc(100% - 32px));
+  margin: 56px auto 0;
+  padding: 24px 0 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  color: var(--muted);
+  border-top: 1px solid rgb(255 255 255 / 8%);
+}
+
+.footer span:first-child {
+  color: var(--text);
+  font-weight: 800;
+}
+
+@media (max-width: 620px) {
+  .footer {
+    width: min(100% - 20px, 1180px);
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
